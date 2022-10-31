@@ -15,7 +15,7 @@ int main(){
 
 void arr(int (*val) [3]){
 
-  cout << val[1][2] << endl;
+  cout << val[1][2];
   cout << endl << *(*val);
   cout << endl << *(*val + 1);
   cout << endl << *(*(val + 1) + 2);
