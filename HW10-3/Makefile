@@ -4,7 +4,7 @@
 # rule for compiling program
 # make or make compile triggers the following rule
 compile:
-	g++ main3.cpp
+	g++ main2.cpp
 
 # rule for running programming
 # make run triggers the following rule
